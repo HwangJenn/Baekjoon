@@ -1,5 +1,5 @@
 import java.util.*;
-public class threethree {
+public class multiply {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
