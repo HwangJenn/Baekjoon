@@ -5,7 +5,8 @@ public class AplusB_10951 {
         Scanner scan = new Scanner(System.in);
         int a;
         int b;
-        while(scan.hasNextInt()){ 
+        while(scan.hasNextInt())
+        { 
             System.out.println(scan.nextInt()+ scan.nextInt()); 
         }
     }
