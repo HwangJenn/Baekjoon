@@ -12,8 +12,7 @@ public class NandM_15649 {
         arr = new int[m];
         visit = new boolean[n];
         dfs(n, m, 0);
-    }
-    public static void dfs(int n, int m, int depth){
+    }   public static void dfs(int n, int m, int depth){
         if(depth==m){
             for(int val : arr){
                 System.out.print(val + " ");
