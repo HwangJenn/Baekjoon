@@ -31,6 +31,7 @@ public class Blackjack_2798 {
                     }
                 }
             }
-        } return result;
+        } 
+        return result;
     }
 }
