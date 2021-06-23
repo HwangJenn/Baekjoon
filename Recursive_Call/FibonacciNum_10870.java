@@ -4,14 +4,20 @@
 //0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597
 //n이 주어졌을 때, n번째 피보나치 수를 구하는 프로그램을 작성하시오.
 import java.util.*;
+
 public class FibonacciNum_10870 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
+        
         int n = scan.nextInt();
+        
         System.out.println(fibonacci(n));
+        
     }public static int fibonacci(int n){
+        
         if(n==0) return 0;
         if(n==1) return 1;
+        
         return fibonacci(n-1)+fibonacci(n-2);
     }
 }
